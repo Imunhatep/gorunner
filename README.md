@@ -58,32 +58,32 @@ Or pressing `CTRL+C`, that will send `SIGINT` to sub-processes:
 Logging level: warn 
 [run2] Watching: /home/aly/w/golang/reloader/resources/test.conf
 [run1] reached well.Wait()
-[run1] 2020-10-01T12:33:51.529497Z casus-evo well-cli info: "Tick!" count=20
-[run1] 2020-10-01T12:33:51.530047Z casus-evo well-cli info: "Tick!" count=10
+[run1] 2020-10-01T12:33:51.529497Z hostname well-cli info: "Tick!" count=20
+[run1] 2020-10-01T12:33:51.530047Z hostname well-cli info: "Tick!" count=10
 [run0] next
-[run1] 2020-10-01T12:33:52.529856Z casus-evo well-cli info: "Tick!" count=19
-[run1] 2020-10-01T12:33:52.530414Z casus-evo well-cli info: "Tick!" count=9
+[run1] 2020-10-01T12:33:52.529856Z hostname well-cli info: "Tick!" count=19
+[run1] 2020-10-01T12:33:52.530414Z hostname well-cli info: "Tick!" count=9
 [run2] /home/aly/w/golang/reloader/resources/test.conf keep..
 [run0] next
-[run1] 2020-10-01T12:33:53.530575Z casus-evo well-cli info: "Tick!" count=8
-[run1] 2020-10-01T12:33:53.530176Z casus-evo well-cli info: "Tick!" count=18
+[run1] 2020-10-01T12:33:53.530575Z hostname well-cli info: "Tick!" count=8
+[run1] 2020-10-01T12:33:53.530176Z hostname well-cli info: "Tick!" count=18
 [run2] /home/aly/w/golang/reloader/resources/test.conf keep..
-^C2020-10-01T12:33:54.397999Z casus-evo gorunner warning: "well: got signal" delay=5 signal="interrupt"
-[run1] 2020-10-01T12:33:54.398105Z casus-evo well-cli warning: "well: got signal" delay=5 signal="interrupt"
-[run1] 2020-10-01T12:33:54.530831Z casus-evo well-cli info: "Tick!" count=7
-[run1] 2020-10-01T12:33:54.531918Z casus-evo well-cli info: "Tick!" count=17
-[run1] 2020-10-01T12:33:55.531097Z casus-evo well-cli info: "Tick!" count=6
-[run1] 2020-10-01T12:33:55.532101Z casus-evo well-cli info: "Tick!" count=16
-[run1] 2020-10-01T12:33:56.531234Z casus-evo well-cli info: "Tick!" count=5
-[run1] 2020-10-01T12:33:56.532242Z casus-evo well-cli info: "Tick!" count=15
-[run1] 2020-10-01T12:33:57.531273Z casus-evo well-cli info: "Tick!" count=4
-[run1] 2020-10-01T12:33:57.532359Z casus-evo well-cli info: "Tick!" count=14
-[run1] 2020-10-01T12:33:58.531399Z casus-evo well-cli info: "Tick!" count=3
-[run1] 2020-10-01T12:33:58.532500Z casus-evo well-cli info: "Tick!" count=13
-[run1] 2020-10-01T12:33:59.531634Z casus-evo well-cli info: "Sick.. exiting!"
+^C2020-10-01T12:33:54.397999Z hostname gorunner warning: "well: got signal" delay=5 signal="interrupt"
+[run1] 2020-10-01T12:33:54.398105Z hostname well-cli warning: "well: got signal" delay=5 signal="interrupt"
+[run1] 2020-10-01T12:33:54.530831Z hostname well-cli info: "Tick!" count=7
+[run1] 2020-10-01T12:33:54.531918Z hostname well-cli info: "Tick!" count=17
+[run1] 2020-10-01T12:33:55.531097Z hostname well-cli info: "Tick!" count=6
+[run1] 2020-10-01T12:33:55.532101Z hostname well-cli info: "Tick!" count=16
+[run1] 2020-10-01T12:33:56.531234Z hostname well-cli info: "Tick!" count=5
+[run1] 2020-10-01T12:33:56.532242Z hostname well-cli info: "Tick!" count=15
+[run1] 2020-10-01T12:33:57.531273Z hostname well-cli info: "Tick!" count=4
+[run1] 2020-10-01T12:33:57.532359Z hostname well-cli info: "Tick!" count=14
+[run1] 2020-10-01T12:33:58.531399Z hostname well-cli info: "Tick!" count=3
+[run1] 2020-10-01T12:33:58.532500Z hostname well-cli info: "Tick!" count=13
+[run1] 2020-10-01T12:33:59.531634Z hostname well-cli info: "Sick.. exiting!"
 [run1] Exiting
 [run1] Exiting
-[run1] 2020-10-01T12:33:59.532732Z casus-evo well-cli info: "Sick.. exiting!"
+[run1] 2020-10-01T12:33:59.532732Z hostname well-cli info: "Sick.. exiting!"
 signal: interrupt
 ```
 
