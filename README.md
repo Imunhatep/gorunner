@@ -36,7 +36,11 @@ GLOBAL OPTIONS:
 ### Example
 ```bash
 make build && \
-    build/gorunner --run="$(pwd)/resources/repeat"  --run="$(pwd)/resources/well-cli"  --run="$(pwd)/resources/watch.sh $(pwd)/resources/test.conf" -vv
+    build/gorunner \
+    --run="$(pwd)/resources/repeat" \
+    --run="$(pwd)/resources/well-cli" \
+    --run="$(pwd)/resources/watch.sh $(pwd)/resources/test.conf" \
+    -vv
 ```
 
 #### Arguments explanation
